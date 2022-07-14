@@ -1,0 +1,55 @@
+<!-- Variable : Use to store values in any language
+     
+    - In JS Three type of variable 
+      1. var
+      2. let
+      3. const
+
+ -->
+<!DOCTYPE html>
+<head>    
+    <title>Variable in JS</title>
+    <script>
+
+        /*  Variable name contain only
+
+            -> [a- z] / [A - Z]
+            -> [0 - 9]
+            -> -(hyphen)
+            -> _(UnderScore)
+            -> $(Doller sign)
+
+            Variable name never Start with [0 - 9] or -(hyphen)
+        */
+       
+        // 1. var
+        // var allow to redeclare and reassign variable
+        var Variable_name = "This <b>Var</b> variable in JS.<br>";
+        document.write(Variable_name);
+
+        Variable_name = 'Hello !<br>'; // we can also use single quote
+        document.write(Variable_name);
+
+        // 2. let
+        // let not allow to redeclare variable but reassign variable
+        let new_variable = "let_variable<br>";
+        document.write(new_variable);
+        new_variable = "let_go<br>";
+        document.write(new_variable);
+        // let new_variable = "not_allow"; // show error
+
+        // 3. const
+        // const neither allow to redeclare nor reassign
+        const variable_is = "design<br>";
+        document.write(variable_is);
+        // const variable_is = "sas"; // error
+        //  variable_is = "new_design"; // error
+ 
+    </script>
+</head>
+<body>
+    <script>
+        
+    </script>
+</body>
+</html>

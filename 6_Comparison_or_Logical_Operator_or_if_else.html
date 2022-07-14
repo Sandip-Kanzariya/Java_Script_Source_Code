@@ -1,0 +1,89 @@
+<!-- Comaparison Opertor give 0 / 1 (true / false)
+    1. == equal value 
+    2. === equal value and equal type
+    3. != not equal value
+    4. !== not equal value or not equal data type
+    5. > greter than
+    6. < less than
+    7. >= greter than or equal to 
+    8. >= less than or equal to
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Comaparison Operator</title>
+    <script> </script>
+<head>
+
+
+<body>
+    <h2>Show on Console</h2>
+    <script>
+    var a = 10; // number
+        var b = '10'; // string
+
+        console.log(a == b);
+        console.log(a === b);
+        console.log(a > b);
+        
+        // you can exploare any Comparison  Operator and we will us these operators in our upcoming codes
+
+        if(a == b)
+            document.write("Value of a and b is same <br>");
+        else  
+            document.write("Value of a and b is not same <br>");
+
+        if(a === b)
+            document.write("Value or data type of a and b are same <br>");
+        else 
+            document.write("Value or data type of a and b are not same <br>");
+
+
+        // if else if condition
+        /*
+            if(){
+
+            }
+
+            else if(){
+
+            }
+
+            else if(){
+
+            }
+
+            else{
+
+            }
+        */
+    </script>
+    
+<!--  Logical Operator 
+    1. && Logical AND
+    2. || Logical OR
+    3. ! Logical NOT    
+-->
+
+    <h2>Logical Operator</h2>
+    <script>
+
+        // both condition true than only than && true
+        var s = 189;
+        document.write(s < 200 && s > 100 ? "You are between 100 - 200.<br>" : "You are out of 100 - 200.<br>");
+
+        // atleast one condition true than || true
+        var age = 50;
+        // var age = 150;
+        document.write(age < 100 || age > 200 ? "You are out of 100 - 200.<br>" : "You are between of 100 - 200.<br>");
+
+        // make inverst of given condition 
+        document.write("Show on console <br>");
+        console.log("Logical Operator");
+        console.log(!(s > 100));
+    </script>
+</body>
+
+</html>
